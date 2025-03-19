@@ -3,6 +3,7 @@
 README: Laravel Job Board API
 
 1. Project Overview
+
 The Laravel Job Board API provides an efficient way to fetch and filter job listings using advanced filtering, EAV attributes, and cursor-based pagination.
 
 2. Setup Instructions
@@ -17,9 +18,13 @@ Composer
 Installation
 
 git clone https://github.com/Hashir-tech/job-board-api.git
+
 cd job-board-api
+
 composer install
+
 cp .env.example .env
+
 php artisan key:generate
 
 Database Setup
