@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "f4b961ef-30d5-4606-95f8-1d33babb279f",
+		"name": "job-board-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6390701"
+	},
+	"item": [
+		{
+			"name": "Job Listing Filters",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/jobs?cursor=eyJpZCI6MywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ&filter=job_type=full-time AND (languages HAS_ANY (de,bo,bi,se,fy))",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"jobs"
+					],
+					"query": [
+						{
+							"key": "cursor",
+							"value": "eyJpZCI6MywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ"
+						},
+						{
+							"key": "filter",
+							"value": "job_type=full-time AND (languages HAS_ANY (de,bo,bi,se,fy))"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
