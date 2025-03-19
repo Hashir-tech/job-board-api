@@ -16,7 +16,7 @@ Composer
 
 Installation
 
-git clone https://github.com/your-repo/job-board-api.git
+git clone https://github.com/Hashir-tech/job-board-api.git
 cd job-board-api
 composer install
 cp .env.example .env
